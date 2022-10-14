@@ -23,5 +23,9 @@
             </intent-filter>
         </activity>
     </application>
-
+<queries>
+    <provider
+        android:authorities="com.example.shoppingList"
+        android:exported="false" />
+</queries>
 </manifest>
